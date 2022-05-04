@@ -142,7 +142,7 @@ def main(): #главната функция, в която се случва в
             if event.type == pygame.QUIT:
                 run = False
                 pygame.quit()
-                #този if прави така, че като натиснем x, за да затворим прозореца програмата реално се затваря
+                #този if прави така, че като натиснем x, за да затворим прозореца, програмата реално се затваря
 
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LCTRL and len(yellow_bullets) < MAX_BULLETS:
