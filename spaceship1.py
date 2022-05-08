@@ -115,7 +115,7 @@ def bullets(yellow_bullets, red_bullets, yellow, red): #функция за дв
         elif bullet.x < 0:
             red_bullets.remove(bullet)
 
-def draw_winner(text): #функция специално за текста накрая на играта, който обявява победителя
+def draw_winner(text): #функция специално за текста в края на играта, който обявява победителя
 
    draw_text = WINNER_FONT.render(text, 1, WHITE)
    WIN.blit(draw_text, (WIDTH/2 - draw_text.get_width()/2, HEIGHT/2 - draw_text.get_width()/2))
